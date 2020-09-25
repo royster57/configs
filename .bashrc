@@ -199,6 +199,8 @@ alias c='cargo clippy -Z unstable-options --workspace --all-targets'
 
 cd ~/work/crux-rs
 
+set editing-mode vi
+
 export FZF_DEFAULT_COMMAND='find -type f -not -path "*~*" -not -path "target" -name "*rs" -o -name "*.toml" -o -name "*.yaml"'
 
 # Base16 Shell
