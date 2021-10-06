@@ -125,8 +125,6 @@ export EDITOR=vim
 set -o vi 
 export PATH=$PATH:$HOME/bin
 
-if [ $TILIX_ID ] || [ $VTE_VERSION ] ; then source /etc/profile.d/vte.sh; fi # Ubuntu Budgie END
-
 is_in_git_repo() {
   git rev-parse HEAD > /dev/null 2>&1
 }
@@ -193,8 +191,6 @@ alias grs='git restore --staged'
 
 # clippy 
 alias c='cargo clippy -Z unstable-options --workspace --all-targets'
-
-cd ~/work/crux-rs
 
 set editing-mode vi
 
