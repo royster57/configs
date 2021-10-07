@@ -167,6 +167,9 @@ bind '"\C-g\C-t": "$(git_tags)\e\C-e\er"'
 bind '"\C-g\C-h": "$(git_hashes)\e\C-e\er"'
 bind '"\C-g\C-r": "$(git_remotes)\e\C-e\er"'
 
+# vim
+alias v='nvim'
+
 # git aliases
 alias gs='git status'
 alias gsh='git show'

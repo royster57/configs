@@ -59,7 +59,7 @@ nmap <silent> gr <Plug>(coc-references)
 " <leader><leader> toggles between buffers
 nnoremap <leader><leader> <c-^>
 
-" Neat X clipboard integration
+" Neat X clipboard integration (REQUIRES xsel!!!!)
 " ,p will paste clipboard into buffer
 " ,c will copy entire buffer into clipboard
 noremap <leader>p :read !xsel --clipboard --output<cr>
