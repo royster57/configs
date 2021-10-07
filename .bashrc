@@ -191,6 +191,7 @@ alias rc='git rebase --continue'
 alias rd='git rebase origin/develop'
 alias l='git lg'
 alias grs='git restore --staged'
+alias gca='git commit --amend'
 
 # clippy 
 alias c='cargo clippy -Z unstable-options --workspace --all-targets'
