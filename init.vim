@@ -37,6 +37,7 @@ nmap <leader>; :Buffers<CR>
 
 " Quick-save
 nmap <leader>w :w<CR>
+nmap <leader>h :noh<CR>
 
 " Jump to start and end of line using the home row keys
 map H ^
