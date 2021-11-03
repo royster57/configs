@@ -18,11 +18,17 @@ Plug 'chriskempson/base16-vim'
 
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Neovim in the browser
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+
+" Git support
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 let base16colorspace=256
 colorscheme base16-gruvbox-dark-hard
-
 set number relativenumber
 
 " Open options
