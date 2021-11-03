@@ -124,6 +124,7 @@ export EDITOR=vim
 
 set -o vi 
 export PATH=$PATH:$HOME/bin
+export PATH=/opt/firefox/firefox:$PATH
 
 is_in_git_repo() {
   git rev-parse HEAD > /dev/null 2>&1
@@ -181,7 +182,7 @@ alias gdel='git branch -D $(git_branches)'
 alias gco='git checkout'
 alias p='git push'
 alias pf='git push --force-with-lease'
-alias gpfs='git push --force-with-lease -o ci.skip'
+alias gpfs='git push --force-with-lease'
 alias gau='git add -u'
 alias gc='git commit'
 alias f='git fetch'
@@ -205,3 +206,5 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 [ -n "$PS1" ] && \
     [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
         eval "$("$BASE16_SHELL/profile_helper.sh")"
+
+cd /home/roy/work
