@@ -109,7 +109,7 @@ set updatetime=300
 set signcolumn=yes
 
 " <leader>s for Rg search
-noremap <leader>s :Rg
+noremap <leader>s :Rg 
 
 
 " Highlight the symbol and its references when holding the cursor.
